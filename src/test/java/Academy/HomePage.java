@@ -19,7 +19,6 @@ import resources.base;
 
 public class HomePage extends base{
 	public WebDriver driver;
-	
 	 public static Logger log =LogManager.getLogger(base.class.getName());
 	@BeforeTest
 	public void initialize() throws IOException
